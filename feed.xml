@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/jekyll-theme-yat/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyll-theme-yat/" rel="alternate" type="text/html" /><updated>2022-03-18T18:27:21+00:00</updated><id>/jekyll-theme-yat/feed.xml</id><title type="html">print(“까먹기 전에 기록하기”)</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>yeahdy</name></author><entry><title type="html"></title><link href="/jekyll-theme-yat/2022/03/18/2022-03-16-welcomeToJekyll.html" rel="alternate" type="text/html" title="" /><published>2022-03-18T18:27:21+00:00</published><updated>2022-03-18T18:27:21+00:00</updated><id>/jekyll-theme-yat/2022/03/18/2022-03-16-welcomeToJekyll</id><content type="html" xml:base="/jekyll-theme-yat/2022/03/18/2022-03-16-welcomeToJekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<h2 id="section-1">section 1</h2>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+<span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<h2 id="section-2">section 2</h2>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+<p>$ a * b = c ^ b $</p>
+
+<p>$ 2^{\frac{n-1}{3}} $</p>
+
+<p>$ \int_a^b f(x)\,dx. $</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Hello World!"</span><span class="p">;</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="c1">// prints 'Hi, Tom' to STDOUT.</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
+
+<span class="n">p1</span> <span class="o">=</span> <span class="n">Person</span><span class="p">(</span><span class="s">"John"</span><span class="p">,</span> <span class="mi">36</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">p1</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">p1</span><span class="p">.</span><span class="n">age</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="table-example-as-below">Table example as below</h2>
+
+<p><strong>For now, these extended features are provided:</strong></p>
+
+<ul>
+  <li>Cells spanning multiple columns</li>
+  <li>Cells spanning multiple rows</li>
+  <li>Cells text align separately</li>
+  <li>Table header not required</li>
+  <li>Grouped table header rows or data rows</li>
+</ul>
+
+<h3 id="rowspan-and-colspan">Rowspan and Colspan</h3>
+<p>^^ in a cell indicates it should be merged with the cell above.<br />
+This feature is contributed by <a href="https://github.com/pmccloghrylaing">pmccloghrylaing</a>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">Stage</th>
+      <th style="text-align: right">Direct Products</th>
+      <th style="text-align: right">ATP Yields</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">Glycolysis</td>
+      <td style="text-align: right">2 ATP                   |</td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: right">^^</td>
+      <td style="text-align: right">2 NADH</td>
+      <td style="text-align: right">3–5 ATP</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Pyruvaye oxidation</td>
+      <td style="text-align: right">2 NADH</td>
+      <td style="text-align: right">5 ATP</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Citric acid cycle</td>
+      <td style="text-align: right">2 ATP           |</td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: right">^^</td>
+      <td style="text-align: right">6 NADH</td>
+      <td style="text-align: right">15 ATP</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">^^</td>
+      <td style="text-align: right">2 FADH</td>
+      <td style="text-align: right">3 ATP</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">30–32 ATP                         ||</td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>[ Net ATP yields per hexose]</p>
+
+<h3 id="multiline">Multiline</h3>
+<p>A backslash at end to join cell contents with the following lines.<br />
+This feature is contributed by <a href="https://github.com/Lucas-C">Lucas-C</a>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">:     Easy Multiline     :||</th>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Apple</td>
+      <td style="text-align: left">Banana</td>
+      <td style="text-align: left">Orange  \</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Apple</td>
+      <td style="text-align: left">Banana</td>
+      <td style="text-align: left">Orange  \</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Apple</td>
+      <td style="text-align: left">Banana</td>
+      <td style="text-align: left">Orange</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Apple</td>
+      <td style="text-align: left">Banana</td>
+      <td style="text-align: left">Orange  \</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Apple</td>
+      <td style="text-align: left">Banana</td>
+      <td style="text-align: left">Orange</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Apple</td>
+      <td style="text-align: left">Banana</td>
+      <td style="text-align: left">Orange</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>yeahdy</name></author><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">첫번째 포스팅!</title><link href="/jekyll-theme-yat/test/2022/03/18/%EC%B2%AB%EB%B2%88%EC%A7%B8-%ED%8F%AC%EC%8A%A4%ED%8C%85.html" rel="alternate" type="text/html" title="첫번째 포스팅!" /><published>2022-03-18T00:00:00+00:00</published><updated>2022-03-18T00:00:00+00:00</updated><id>/jekyll-theme-yat/test/2022/03/18/%EC%B2%AB%EB%B2%88%EC%A7%B8%20%ED%8F%AC%EC%8A%A4%ED%8C%85</id><content type="html" xml:base="/jekyll-theme-yat/test/2022/03/18/%EC%B2%AB%EB%B2%88%EC%A7%B8-%ED%8F%AC%EC%8A%A4%ED%8C%85.html"><![CDATA[<h2 id="첫번째-게시글-test">첫번째 게시글 test</h2>]]></content><author><name>yeahdy</name></author><category term="test" /><category term="test" /><summary type="html"><![CDATA[첫번째 게시글 test]]></summary></entry><entry><title type="html">코드작성 or 사진첨부 Example</title><link href="/jekyll-theme-yat/test/2017/06/10/quick-mardown-example.html" rel="alternate" type="text/html" title="코드작성 or 사진첨부 Example" /><published>2017-06-10T00:00:00+00:00</published><updated>2017-06-10T00:00:00+00:00</updated><id>/jekyll-theme-yat/test/2017/06/10/quick-mardown-example</id><content type="html" xml:base="/jekyll-theme-yat/test/2017/06/10/quick-mardown-example.html"><![CDATA[<p>Paragraphs are separated by a blank line.</p>
+
+<p>2nd paragraph. <em>Italic</em>, <strong>bold</strong>, and <code class="language-plaintext highlighter-rouge">monospace</code>. Itemized lists
+look like:</p>
+
+<ul>
+  <li>this one</li>
+  <li>that one</li>
+  <li>the other one</li>
+</ul>
+
+<p>Note that — not considering the asterisk — the actual text
+content starts at 4-columns in.</p>
+
+<blockquote>
+  <p>Block quotes are
+written like so.</p>
+
+  <p>They can span multiple paragraphs,
+if you like.</p>
+</blockquote>
+
+<p>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., “it’s all
+in chapters 12–14”). Three dots … will be converted to an ellipsis.
+Unicode is supported. ☺</p>
+
+<h2 id="an-h2-header">An h2 header</h2>
+
+<p>Here’s a numbered list:</p>
+
+<ol>
+  <li>first item</li>
+  <li>second item</li>
+  <li>third item</li>
+</ol>
+
+<p>Note again how the actual text starts at 4 columns in (4 characters
+from the left side). Here’s a code sample:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Let me re-iterate ...
+for i in 1 .. 10 { do-something(i) }
+</code></pre></div></div>
+
+<p>As you probably guessed, indented 4 spaces. By the way, instead of
+indenting the block, you can use delimited blocks, if you like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>define foobar() {
+    print "Welcome to flavor country!";
+}
+</code></pre></div></div>
+
+<p>(which makes copying &amp; pasting easier). You can optionally mark the
+delimited block for Pandoc to syntax highlight it:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">time</span>
+<span class="c1"># Quick, count to ten!
+</span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+    <span class="c1"># (but not *too* quick)
+</span>    <span class="n">time</span><span class="p">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="an-h3-header">An h3 header</h3>
+
+<p>Now a nested list:</p>
+
+<ol>
+  <li>
+    <p>First, get these ingredients:</p>
+
+    <ul>
+      <li>carrots</li>
+      <li>celery</li>
+      <li>lentils</li>
+    </ul>
+  </li>
+  <li>
+    <p>Boil some water.</p>
+  </li>
+  <li>
+    <p>Dump everything in the pot and follow
+this algorithm:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find wooden spoon
+uncover pot
+stir
+cover pot
+balance wooden spoon precariously on pot handle
+wait 10 minutes
+goto first step (or shut off burner when done)
+</code></pre></div>    </div>
+
+    <p>Do not bump wooden spoon or it will fall.</p>
+  </li>
+</ol>
+
+<p>Notice again how text always lines up on 4-space indents (including
+that last line which continues item 3 above).</p>
+
+<p>Here’s a link to <a href="http://foo.bar">a website</a>, to a <a href="local-doc.html">local
+doc</a>, and to a <a href="#an-h2-header">section heading in the current
+doc</a>. Here’s a footnote <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<p>Tables can look like this:</p>
+
+<p>Name           Size  Material      Color
+————- —–  ————  ————
+All Business      9  leather       brown
+Roundabout       10  hemp canvas   natural
+Cinderella       11  glass         transparent</p>
+
+<p>Table: Shoes sizes, materials, and colors.</p>
+
+<p>(The above is the caption for the table.) Pandoc also supports
+multi-line tables:</p>
+
+<hr />
+<p>Keyword   Text
+——–  ———————–
+red       Sunsets, apples, and
+          other red or reddish
+          things.</p>
+
+<p>green     Leaves, grass, frogs
+          and other things it’s
+          not easy being.
+——–  ———————–</p>
+
+<p>A horizontal rule follows.</p>
+
+<hr />
+
+<p>Here’s a definition list:</p>
+
+<dl>
+  <dt>apples</dt>
+  <dd>Good for making applesauce.</dd>
+  <dt>oranges</dt>
+  <dd>Citrus!</dd>
+  <dt>tomatoes</dt>
+  <dd>There’s no “e” in tomatoe.</dd>
+</dl>
+
+<p>Again, text is indented 4 spaces. (Put a blank line between each
+term and  its definition to spread things out more.)</p>
+
+<p>Here’s a “line block” (note how whitespace is honored):</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Line one</td>
+    </tr>
+    <tr>
+      <td>Line too</td>
+    </tr>
+    <tr>
+      <td>Line tree</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>and images can be specified like so:</p>
+
+<p><img src="https://user-images.githubusercontent.com/9413601/123900693-1d9ebd00-d99c-11eb-8e9e-cf7879187606.png" alt="example image" title="An exemplary image" /></p>
+
+<p>Inline math equation: $\omega = d\phi / dt$. Display
+math should get its own line like so:</p>
+
+<p>$$I = \int \rho R^{2} dV$$</p>
+
+<p>And note that you can backslash-escape any punctuation characters
+which you wish to be displayed literally, ex.: `foo`, *bar*, etc.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Some footnote text. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>yeahdy</name></author><category term="test" /><category term="example" /><summary type="html"><![CDATA[Paragraphs are separated by a blank line.]]></summary></entry></feed>
