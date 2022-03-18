@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Quick markdown example
+title: 코드작성 or 사진첨부 Example
 subtitle: This is a quick markdown example
-categories: markdown
+categories: test
 tags: [example]
 ---
 
