@@ -158,7 +158,7 @@ defaults:
   home:
     heading: "print('까먹기 전에 기록하기')"
     subheading: "Yeahdy.developer.backend"
-    banner: "뭐 어쩌라는거야"
+    banner: "assets/yellowLight.jpg"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
