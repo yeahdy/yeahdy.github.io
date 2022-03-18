@@ -26,7 +26,7 @@
 
 title: print("까먹기 전에 기록하기")
 email: yejinnn0109@gmail.com
-author: yeady
+author: yeahdy
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -107,7 +107,7 @@ yat:
 # spacegrey: #353535
 # snowwhite: #ffffff
 #
-# theme_color: snowwhite
+ theme_color: snowwhite
 #
 # Custom color as below:
 # theme_color: "#882250"
@@ -148,9 +148,9 @@ yat:
 # this and add the path to the pages in order as they should show up
 # header_pages:
 #   - index.html
-#   - archives.html
+  - archives.html
 #   - categories.html
-#   - tags.html
+  - tags.html
 #   - about.md
 
 # Page default value
