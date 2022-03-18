@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll의 첫 게시글
+title: 참고용 게시글
 subtitle: 혹시 나중에 참고용으로 남겨둠!.
 author: yeahdy
 categories: test
