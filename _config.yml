@@ -37,7 +37,7 @@ author: yeady
 # * sound recording copyright: (p) - ℗
 #
 # For example:
-#   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
+#   "Copyright (c) {currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
 copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
@@ -47,7 +47,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://blog.naver.com/yejine98" # the subpath of your site, e.g. /blog
 url: "https://yeahdy.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
 favicon: "🐥" # the favicon for your site
 
