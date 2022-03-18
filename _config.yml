@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: print("까먹기 전에 기록하기")
+title: print "까먹기 전에 기록하기"
 email: yejinnn0109@gmail.com
 author: yeahdy
 
